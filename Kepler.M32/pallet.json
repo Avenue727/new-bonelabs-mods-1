@@ -1,0 +1,107 @@
+{
+  "version": 1,
+  "root": {
+    "ref": "o:1",
+    "type": "t:1"
+  },
+  "objects": {
+    "o:1": {
+      "barcode": "Kepler.M32",
+      "title": "M32",
+      "description": "",
+      "unlockable": false,
+      "redacted": false,
+      "author": "Kepler",
+      "version": "0.0.0",
+      "sdkVersion": "0.3.7-1748",
+      "internal": false,
+      "crates": [
+        {
+          "ref": "o:2",
+          "type": "t:2"
+        },
+        {
+          "ref": "o:3",
+          "type": "t:2"
+        }
+      ],
+      "tags": [],
+      "changelogs": [],
+      "isa": {
+        "type": "t:1"
+      }
+    },
+    "o:2": {
+      "barcode": "Kepler.M32.Spawnable.M32",
+      "title": "M32",
+      "description": "",
+      "unlockable": false,
+      "redacted": false,
+      "mainAsset": "f84006d322bddae4a84d67f457d74c16",
+      "tags": [
+        "Kepler's Weapons"
+      ],
+      "packedAssets": [
+        {
+          "title": "PreviewMesh",
+          "guid": "6d013068c1f1a0a48a8ecb58e0c40ed2"
+        }
+      ],
+      "colliderBounds": {
+        "center": {
+          "x": 0.0005467236,
+          "y": 0.04197716,
+          "z": 0.1560514
+        },
+        "extents": {
+          "x": 0.07161045,
+          "y": 0.1124226,
+          "z": 0.4071406
+        }
+      },
+      "isa": {
+        "type": "t:2"
+      }
+    },
+    "o:3": {
+      "barcode": "Kepler.M32.Spawnable.WMshell",
+      "title": "WM shell",
+      "description": "",
+      "unlockable": false,
+      "redacted": false,
+      "mainAsset": "939f28018833f77468afa0eaee7dff1f",
+      "tags": [],
+      "packedAssets": [
+        {
+          "title": "PreviewMesh",
+          "guid": "c1dfca50091203a4791e1d7522df9b89"
+        }
+      ],
+      "colliderBounds": {
+        "center": {
+          "x": 0.0,
+          "y": 0.002833873,
+          "z": 0.0044670105
+        },
+        "extents": {
+          "x": 0.03148748,
+          "y": 0.03148748,
+          "z": 0.0480771735
+        }
+      },
+      "isa": {
+        "type": "t:2"
+      }
+    }
+  },
+  "types": {
+    "t:1": {
+      "type": "t:1",
+      "fullname": "SLZ.Marrow.Warehouse.Pallet, SLZ.Marrow.SDK, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+    },
+    "t:2": {
+      "type": "t:2",
+      "fullname": "SLZ.Marrow.Warehouse.SpawnableCrate, SLZ.Marrow.SDK, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+    }
+  }
+}

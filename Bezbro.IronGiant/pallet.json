@@ -1,0 +1,71 @@
+{
+  "version": 1,
+  "root": {
+    "ref": "o:1",
+    "type": "t:1"
+  },
+  "objects": {
+    "o:1": {
+      "barcode": "Bezbro.IronGiant",
+      "title": "IronGiant",
+      "description": "",
+      "unlockable": false,
+      "redacted": false,
+      "author": "Bezbro",
+      "version": "0.0.0",
+      "sdkVersion": "0.3.4-1649",
+      "internal": false,
+      "crates": [
+        {
+          "ref": "o:2",
+          "type": "t:2"
+        }
+      ],
+      "tags": [],
+      "changelogs": [],
+      "isa": {
+        "type": "t:1"
+      }
+    },
+    "o:2": {
+      "barcode": "Bezbro.IronGiant.Avatar.IronGiant",
+      "title": "IronGiant",
+      "description": "",
+      "unlockable": false,
+      "redacted": false,
+      "mainAsset": "ba7608390e816e647bb6e4b3c7c87e06",
+      "tags": [],
+      "packedAssets": [
+        {
+          "title": "PreviewMesh",
+          "guid": "cccff4b228e90654a8cd50ec5a3441f3"
+        }
+      ],
+      "colliderBounds": {
+        "center": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "extents": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        }
+      },
+      "isa": {
+        "type": "t:2"
+      }
+    }
+  },
+  "types": {
+    "t:1": {
+      "type": "t:1",
+      "fullname": "SLZ.Marrow.Warehouse.Pallet, SLZ.Marrow.SDK, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+    },
+    "t:2": {
+      "type": "t:2",
+      "fullname": "SLZ.Marrow.Warehouse.AvatarCrate, SLZ.Marrow.SDK, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+    }
+  }
+}

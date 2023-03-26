@@ -1,0 +1,71 @@
+{
+  "version": 1,
+  "root": {
+    "ref": "o:1",
+    "type": "t:1"
+  },
+  "objects": {
+    "o:1": {
+      "barcode": "Shinboi123.Darksaber",
+      "title": "Darksaber",
+      "description": "",
+      "unlockable": false,
+      "redacted": false,
+      "author": "Shinboi123",
+      "version": "1.0.0",
+      "sdkVersion": "0.3.7-1748",
+      "internal": false,
+      "crates": [
+        {
+          "ref": "o:2",
+          "type": "t:2"
+        }
+      ],
+      "tags": [],
+      "changelogs": [],
+      "isa": {
+        "type": "t:1"
+      }
+    },
+    "o:2": {
+      "barcode": "Shinboi123.Darksaber.Spawnable.Darksaber",
+      "title": "Darksaber",
+      "description": "",
+      "unlockable": false,
+      "redacted": false,
+      "mainAsset": "9e6fee4b690009b4898686fec9ea691c",
+      "tags": [],
+      "packedAssets": [
+        {
+          "title": "PreviewMesh",
+          "guid": "b092681a3ef8d534583c9e7db0660785"
+        }
+      ],
+      "colliderBounds": {
+        "center": {
+          "x": -0.00320000947,
+          "y": -0.00340941176,
+          "z": 0.007927313
+        },
+        "extents": {
+          "x": 0.0265477989,
+          "y": 0.0541641861,
+          "z": 0.198959172
+        }
+      },
+      "isa": {
+        "type": "t:2"
+      }
+    }
+  },
+  "types": {
+    "t:1": {
+      "type": "t:1",
+      "fullname": "SLZ.Marrow.Warehouse.Pallet, SLZ.Marrow.SDK, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+    },
+    "t:2": {
+      "type": "t:2",
+      "fullname": "SLZ.Marrow.Warehouse.SpawnableCrate, SLZ.Marrow.SDK, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+    }
+  }
+}

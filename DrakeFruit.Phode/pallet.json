@@ -1,0 +1,105 @@
+{
+  "version": 1,
+  "root": {
+    "ref": "o:1",
+    "type": "t:1"
+  },
+  "objects": {
+    "o:1": {
+      "barcode": "DrakeFruit.Phode",
+      "title": "Phode",
+      "description": "",
+      "unlockable": false,
+      "redacted": false,
+      "author": "DrakeFruit",
+      "version": "0.0.0",
+      "sdkVersion": "0.3.4-1649",
+      "internal": false,
+      "crates": [
+        {
+          "ref": "o:2",
+          "type": "t:2"
+        },
+        {
+          "ref": "o:3",
+          "type": "t:2"
+        }
+      ],
+      "tags": [],
+      "changelogs": [],
+      "isa": {
+        "type": "t:1"
+      }
+    },
+    "o:2": {
+      "barcode": "DrakeFruit.Phode.Avatar.Phode",
+      "title": "Phode",
+      "description": "",
+      "unlockable": false,
+      "redacted": false,
+      "mainAsset": "411274cb6bb28864d894c223b8000815",
+      "tags": [],
+      "packedAssets": [
+        {
+          "title": "PreviewMesh",
+          "guid": "c483bd981a57df1428414674d70bc95f"
+        }
+      ],
+      "colliderBounds": {
+        "center": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "extents": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        }
+      },
+      "isa": {
+        "type": "t:2"
+      }
+    },
+    "o:3": {
+      "barcode": "DrakeFruit.Phode.Avatar.BigPhode",
+      "title": "Big Phode",
+      "description": "",
+      "unlockable": false,
+      "redacted": false,
+      "mainAsset": "e932f13ab8864b648a8ed852222b7be9",
+      "tags": [],
+      "packedAssets": [
+        {
+          "title": "PreviewMesh",
+          "guid": "1772568a79a664d4bbe96aec412dad2d"
+        }
+      ],
+      "colliderBounds": {
+        "center": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "extents": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        }
+      },
+      "isa": {
+        "type": "t:2"
+      }
+    }
+  },
+  "types": {
+    "t:1": {
+      "type": "t:1",
+      "fullname": "SLZ.Marrow.Warehouse.Pallet, SLZ.Marrow.SDK, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+    },
+    "t:2": {
+      "type": "t:2",
+      "fullname": "SLZ.Marrow.Warehouse.AvatarCrate, SLZ.Marrow.SDK, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+    }
+  }
+}

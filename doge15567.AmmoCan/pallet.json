@@ -1,0 +1,76 @@
+{
+  "version": 1,
+  "root": {
+    "ref": "o:1",
+    "type": "t:1"
+  },
+  "objects": {
+    "o:1": {
+      "barcode": "doge15567.AmmoCan",
+      "title": "Ammo Can",
+      "description": "A thousand ammo in a can!",
+      "unlockable": false,
+      "redacted": false,
+      "author": "doge15567",
+      "version": "1",
+      "sdkVersion": "0.3.7-1748",
+      "internal": false,
+      "crates": [
+        {
+          "ref": "o:2",
+          "type": "t:2"
+        }
+      ],
+      "tags": [],
+      "changelogs": [],
+      "isa": {
+        "type": "t:1"
+      }
+    },
+    "o:2": {
+      "barcode": "doge15567.AmmoCan.Spawnable.AmmoCan",
+      "title": "Ammo Can",
+      "description": "A thousand of each ammo in a can!",
+      "unlockable": false,
+      "redacted": false,
+      "mainAsset": "1aa0b5d842246f94685b0ada7d7407ab",
+      "tags": [
+        "doge15567",
+        "Ammo Can",
+        "Gadget",
+        "Ammo"
+      ],
+      "packedAssets": [
+        {
+          "title": "PreviewMesh",
+          "guid": "e4d6dc7d59a1bac48ab89989e8792a33"
+        }
+      ],
+      "colliderBounds": {
+        "center": {
+          "x": 3.7252903E-09,
+          "y": 0.00137492269,
+          "z": -7.450581E-09
+        },
+        "extents": {
+          "x": 0.0349267535,
+          "y": 0.08962414,
+          "z": 0.03492675
+        }
+      },
+      "isa": {
+        "type": "t:2"
+      }
+    }
+  },
+  "types": {
+    "t:1": {
+      "type": "t:1",
+      "fullname": "SLZ.Marrow.Warehouse.Pallet, SLZ.Marrow.SDK, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+    },
+    "t:2": {
+      "type": "t:2",
+      "fullname": "SLZ.Marrow.Warehouse.SpawnableCrate, SLZ.Marrow.SDK, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+    }
+  }
+}

@@ -1,0 +1,248 @@
+{
+  "version": 1,
+  "root": {
+    "ref": "o:1",
+    "type": "t:1"
+  },
+  "objects": {
+    "o:1": {
+      "barcode": "Drax.BarrettM82",
+      "title": "Barrett M82",
+      "description": "",
+      "unlockable": false,
+      "redacted": false,
+      "author": "Drax",
+      "version": "0.0.0",
+      "sdkVersion": "0.3.7-1748",
+      "internal": false,
+      "crates": [
+        {
+          "ref": "o:2",
+          "type": "t:2"
+        },
+        {
+          "ref": "o:3",
+          "type": "t:2"
+        },
+        {
+          "ref": "o:4",
+          "type": "t:2"
+        },
+        {
+          "ref": "o:5",
+          "type": "t:2"
+        },
+        {
+          "ref": "o:6",
+          "type": "t:2"
+        },
+        {
+          "ref": "o:7",
+          "type": "t:2"
+        }
+      ],
+      "tags": [],
+      "changelogs": [],
+      "isa": {
+        "type": "t:1"
+      }
+    },
+    "o:2": {
+      "barcode": "Drax.BarrettM82.Spawnable.BarrettM82Magazine",
+      "title": "Barrett M82 Magazine",
+      "description": "",
+      "unlockable": false,
+      "redacted": true,
+      "mainAsset": "8d737e849a8f55f4786612759ae02fc1",
+      "tags": [
+        "Ammo"
+      ],
+      "packedAssets": [
+        {
+          "title": "PreviewMesh",
+          "guid": "2d0d339104e515b49991a328c5c3696d"
+        }
+      ],
+      "colliderBounds": {
+        "center": {
+          "x": -0.06241271,
+          "y": -0.0055003,
+          "z": 0.0232964158
+        },
+        "extents": {
+          "x": 0.07435076,
+          "y": 0.025,
+          "z": 0.08629759
+        }
+      },
+      "isa": {
+        "type": "t:2"
+      }
+    },
+    "o:3": {
+      "barcode": "Drax.BarrettM82.Spawnable.BarrettM82Irons",
+      "title": "Barrett M82 Irons",
+      "description": "",
+      "unlockable": false,
+      "redacted": false,
+      "mainAsset": "3f955d963e2f74247b0a446af0cc1280",
+      "tags": [
+        "Rifle",
+        "Gun"
+      ],
+      "packedAssets": [
+        {
+          "title": "PreviewMesh",
+          "guid": "5267519a927990c4b97220a5ddf427cf"
+        }
+      ],
+      "colliderBounds": {
+        "center": {
+          "x": 0.00200007483,
+          "y": 0.0248237178,
+          "z": 0.2948128
+        },
+        "extents": {
+          "x": 0.0433828346,
+          "y": 0.142886326,
+          "z": 0.7167102
+        }
+      },
+      "isa": {
+        "type": "t:2"
+      }
+    },
+    "o:4": {
+      "barcode": "Drax.BarrettM82.Spawnable.BarrettScope",
+      "title": "Barrett Scope",
+      "description": "",
+      "unlockable": false,
+      "redacted": false,
+      "mainAsset": "198e432dbef8231479837bb386839c08",
+      "tags": [
+        "Attachment"
+      ],
+      "packedAssets": [
+        {
+          "title": "PreviewMesh",
+          "guid": "ad85e8f17a7a04343afa36bfee02d1b6"
+        }
+      ],
+      "colliderBounds": {
+        "center": {
+          "x": 0.002577426,
+          "y": 0.0401321165,
+          "z": 0.0482239127
+        },
+        "extents": {
+          "x": 0.032471735,
+          "y": 0.0504235178,
+          "z": 0.207507968
+        }
+      },
+      "isa": {
+        "type": "t:2"
+      }
+    },
+    "o:5": {
+      "barcode": "Drax.BarrettM82.Spawnable.50BMGCartridge",
+      "title": "50BMG Cartridge",
+      "description": "",
+      "unlockable": false,
+      "redacted": true,
+      "mainAsset": "7d5a0c207cf56e645b087678e4b05e8f",
+      "tags": [],
+      "packedAssets": [
+        {
+          "title": "PreviewMesh",
+          "guid": "71588fd1eaadb1d4abb90f52ea338c4c"
+        }
+      ],
+      "colliderBounds": {
+        "center": {
+          "x": -1.86264515E-08,
+          "y": 0.0,
+          "z": -0.0191054717
+        },
+        "extents": {
+          "x": 0.0116454316,
+          "y": 0.0116454177,
+          "z": 0.07075729
+        }
+      },
+      "isa": {
+        "type": "t:2"
+      }
+    },
+    "o:6": {
+      "barcode": "Drax.BarrettM82.Spawnable.50BMGCase",
+      "title": "50BMG Case",
+      "description": "",
+      "unlockable": false,
+      "redacted": true,
+      "mainAsset": "71f81f9cef98f8543ac95451fb3fa78c",
+      "tags": [],
+      "packedAssets": [
+        {
+          "title": "PreviewMesh",
+          "guid": "1f05f57d810783d4ea06ed343e4bc5e2"
+        }
+      ],
+      "colliderBounds": {
+        "center": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": -0.04
+        },
+        "extents": {
+          "x": 0.009446083,
+          "y": 0.009446077,
+          "z": 0.05426435
+        }
+      },
+      "isa": {
+        "type": "t:2"
+      }
+    },
+    "o:7": {
+      "barcode": "Drax.BarrettM82.Spawnable.50BMGProjectile",
+      "title": "50BMG Projectile",
+      "description": "",
+      "unlockable": false,
+      "redacted": true,
+      "mainAsset": "74d5fd62a01b0984fa7dd29f2ae91aec",
+      "tags": [],
+      "packedAssets": [
+        {
+          "title": "PreviewMesh",
+          "guid": "7bdca466b29f52645bf91d070091c402"
+        }
+      ],
+      "colliderBounds": {
+        "center": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "extents": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        }
+      },
+      "isa": {
+        "type": "t:2"
+      }
+    }
+  },
+  "types": {
+    "t:1": {
+      "type": "t:1",
+      "fullname": "SLZ.Marrow.Warehouse.Pallet, SLZ.Marrow.SDK, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+    },
+    "t:2": {
+      "type": "t:2",
+      "fullname": "SLZ.Marrow.Warehouse.SpawnableCrate, SLZ.Marrow.SDK, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+    }
+  }
+}
